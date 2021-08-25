@@ -1,5 +1,7 @@
 #save image from clipboard to current working directory
 
+# currently broken
+
 $img = Get-Clipboard -format image
 $cwd = Get-Location
 $date = Get-Date -Format "yyyyMMdd_HHmm"
